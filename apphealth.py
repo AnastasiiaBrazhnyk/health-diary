@@ -239,7 +239,7 @@ with tab4:
         st.info("Ще не додано жодного запису.")
 
 with tab5:
-    st.header("Пошук калорій з українського сайту)")
+    st.header("Пошук калорій з українського сайту")
     product_web = st.text_input("Продукт:")
     if st.button("Знайти калорії") and product_web:
         st.info("Йде пошук на tablycjakalorijnosti.com.ua ...")
